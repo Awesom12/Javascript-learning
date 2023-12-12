@@ -55,3 +55,18 @@ console.log(k);
 
 e = e+1;
 console.log(e);
+
+//concatenate strings
+let firstWord = "Hello";
+let sencondWord = "World!";
+
+let sentence = firstWord+sencondWord;
+console.log(sentence);
+sentence = firstWord+" "+sencondWord;
+console.log(sentence);
+console.log("The value of x is: "+ x);
+
+console.log("The value of a is: "+ a);
+
+console.log("The value of e + f is: "+(e+f));
+
