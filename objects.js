@@ -7,12 +7,12 @@ let pet = {     //Objects are surrounded by curly braces
     "age": 5
 }
 
-console.log(pet);
+console.table(pet);
 console.log(pet.name)
 
 let dog = {
-    'name': 'Fido',
-    'toys': ['Squeaky pretzel', 'Rubber ball', 'Chewy bone']
+    name: 'Fido',
+    toys: ['Squeaky pretzel', 'Rubber ball', 'Chewy bone']
 }
 console.log(dog);
 console.log(dog.toys[0]);
