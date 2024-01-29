@@ -16,7 +16,7 @@ for (x = 1; x < 5; x++) {
 let text = "";
 
 for (let i = 0; i < 5; i++) {
-    text += "The number is " + i + " ";   //text = text + previous text
+    text += "The number is " + i + " ";   //text += text + previous text before this iteration
 }
 
 console.log(text);
